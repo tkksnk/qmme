@@ -1,5 +1,3 @@
-Course website for Quantitative Methods for Monetary Economics
-
 ### Announcements:
 (21 Feb) You can find a Matlab Primer written by Johannes Pfeifer (University of Cologne) here: https://bbcb79fe-a-62cb3a1a-s-sites.googlegroups.com/site/pfeiferecon/Handout_Matlab.pdf
 
