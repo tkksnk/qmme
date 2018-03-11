@@ -1,4 +1,6 @@
 ### Announcements:
+(11 Mat) A typo in Assignment #2 (the government budget constraint) is fixed.
+
 (28 Feb) A proposed answer to Assignment #1 is uploaded.
 
 (21 Feb) You can find a Matlab Primer written by Johannes Pfeifer (University of Cologne) here: https://bbcb79fe-a-62cb3a1a-s-sites.googlegroups.com/site/pfeiferecon/Handout_Matlab.pdf
