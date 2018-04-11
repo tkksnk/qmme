@@ -1,5 +1,7 @@
 ### Announcements:
-(11 Mat) A typo in Assignment #2 (the government budget constraint) is fixed.
+(9 Apr) Slides for the timing of events are uploaded.  They may help when you solve Assignment #3. 
+
+(11 Mar) A typo in Assignment #2 (the government budget constraint) is fixed.
 
 (28 Feb) A proposed answer to Assignment #1 is uploaded.
 
