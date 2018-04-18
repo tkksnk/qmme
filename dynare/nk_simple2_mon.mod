@@ -12,8 +12,8 @@ phiy = 0.5/4;
 rhov = 0.5;
 rhoa = 0.9;
 eta = 4;
-//alpha = 0;
-alpha = 0.25;
+alpha = 0;
+//alpha = 0.25;
 
 Theta = (1-alpha)/(1-alpha+alpha*eps);
 lambda = (1-theta)*(1-beta*theta)/theta*Theta;

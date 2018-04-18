@@ -15,19 +15,19 @@ gss = (1+pi4ss)^(1/4); // quarterly inflation / money growth
 // steady state version of the model
 model;
 
-1 = beta*(1+exp(lr)-delta);
+1 = beta*exp(lw-lw(+1))*(1+exp(lr)-delta);
 
-B/exp(lw) = -beta*1/exp(lc+lg);
+B/exp(lw+lp) = -beta*1/exp(lp(+1)+lc(+1)+lg(+1));
 
 exp(lp+lc+lg) = exp(lg);
 
-exp(-lp) = exp(lw+lh) + (exp(lr)-delta)*exp(lk);
+exp(lk) + exp(-lp) = exp(lw+lh) + exp(lr)*exp(lk(-1)) + (1-delta)*exp(lk);
 
 exp(lw) = (1-theta)*exp(theta*(lk-lh));
 
 exp(lr) = theta*exp((theta-1)*(lk-lh));
 
-lg = log(gss);
+lg = (1-rhog)*log(gss) + rhog*lg(-1) + ;
 
 end;
 
