@@ -2,6 +2,7 @@ parameters theta varphi beta rho kappa sigma phip phiy psiya psiy rhoa;
 var r rr rrgap pai y ytilde yn rn a lab;
 varexo epsa;
 
+// structural parameters
 eps = 9; // elasticity of demand
 theta = 3/4; // probability of fixing the price
 sigma = 1.0; // risk aversion
@@ -9,6 +10,7 @@ varphi = 5; // inverse of Frisch elasticity
 beta = 0.99; // discount factor
 rho = -log(beta); // nominal interest rate in SS
 kappa = (1-theta)*(1-theta*beta)*(sigma+varphi)/theta; // the slope of the Phillips curve
+
 phip = 1.5; // coefficient on inflation
 phiy = 0.5/4; // coefficient on output
 mu = log(eps/(eps-1)); // logged markup
@@ -44,4 +46,4 @@ shocks;
 var epsa; stderr 1.0;
 end;
 
-stoch_simul(order=1,irf=16) ytilde pai r rrgap y lab;
+stoch_simul(order=1,irf=0,periods=1000) ytilde pai r rrgap y lab;
