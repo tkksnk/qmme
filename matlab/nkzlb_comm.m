@@ -3,7 +3,7 @@ clear all;
 beta = 0.99;
 sigma = 1.0;
 vphi = 5;
-eps = 9;
+eps = 9; % Markup = eps/(eps-1)
 theta = 3/4;
 alpha = 0;
 
