@@ -59,8 +59,8 @@ while (diff>critg)
 
     diff = d-c;
     iter = iter+1;
-%     s = sprintf( ' iteration %4d:  New x = %6.8f',iter,z);
-%     disp(s);
+    s = sprintf( ' iteration %4d:  New x = %6.8f',iter,z);
+    disp(s);
 
 end
 
