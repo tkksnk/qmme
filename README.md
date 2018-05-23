@@ -1,4 +1,10 @@
 ### Announcements:
+(22 May) Lecture on May 30 is based on my recent survey of how to solve nonlinear DSGE models.
+
+(22 May) There will be a one-hour make-up (Q&A) lecture for the take-home final in the week of June 4.  The date and time is TBA.
+
+(22 May) Due of Final Assignment (i.e., take-home Final) is at the midnight on Saturday, 16 June 2018.  Please send a *typed* PDF and m-files to my email address.
+
 (9 May) Due of Assignment 5 is at the beginning of the class on 23 May.
 
 (18 Apr) Due of Assignment 4 is at the beginning of the class on 25 Apr.  Some useful codes are uploaded at the folder "dynare."
